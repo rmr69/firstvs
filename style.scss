@@ -1,0 +1,263 @@
+/*
+Template Name: Election Comission
+Template URL: https://www.revesoft.com/;
+Author Name: Reve System;
+Author URL : https://www.revesoft.com/
+Description: Election commission
+Version:1.01;
+Table of content
+*/ 
+
+ /* *****************************
+
+ ******************************** */
+
+ /* *****************************
+1. Reset Code
+2. Header top Area Design
+ ******************************** */
+
+ /* *****************************
+1. Reset Code
+ ******************************** */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /* *****************************
+2. Header top Area Design
+ ******************************** */
+
+ #HeaderArea{
+     .headertop-area{
+            display: flex;
+            // background-color:#f06292;
+            background-color:#f50057;
+            height: auto;
+            padding: 10px;
+
+    .header-logo{
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        a{
+            display: block;
+            float: left;
+            width: 100%;
+            height: auto;
+            img{
+                width: 100%;
+                height: 85px;
+                float: left;
+            }
+        }
+    }
+    .heading{
+        float: left;
+        width: 100%;
+
+
+        h3{
+            color: #fff;
+            font-size: 30px;
+        }
+
+        h4{
+            color: #000;
+            font-size: 32px;
+        }
+    }
+    .top-menu{
+        display: block;
+        float: right;
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        text-align: right;
+        ul{
+            display: block;
+            float: right;
+            width: 100%;
+
+            li{
+                display: inline-block;
+                padding:34px 5px;
+                list-style: none;              
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.header-menu{
+    background-color: #008000;
+    color: #fff;
+    nav{
+        ul{
+            display: block;
+            float:left;
+            width: 100%;
+            li{
+                display: inline-block;
+                list-style-type: none;
+                padding: 10px 43px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+ }
+
+ .maincontent-area{
+     background-color:#e0e0e0;
+    display:block;
+    float: left;
+    width: 100%;
+    .left-sidebar{
+        display: block;
+        float: left;
+        width: 100%;
+        background-color: #bdbdbd;
+        p{
+            display: block;
+            widows: 100%;
+            background-color: #f50057;
+            padding: 10px;
+            font-size: 19px;
+            color: #fff;
+            margin: 5px 0;
+            float: left;
+            width: 100%;
+
+
+            
+        }
+        .card-content{
+            display: block;
+            float: left;
+            width: 100%;
+            // margin-top:20px;
+            h5.title{
+                text-align: center;
+                display: block;
+                widows: 100%;
+                background-color: #e91e63;
+                padding: 10px;
+                font-size: 19px;
+                color: #fff;
+                margin: 5px 0;
+                float: left;
+                width: 100%;
+            }
+
+            a{
+                img{
+                    display: block;
+                    float: left;
+                    width: 100%;
+                }
+            }
+
+            nav{
+                ul{
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    li{
+
+                        display: inline-block;
+                        width: 100%;
+                        padding: 5px 8px; 
+                        i{
+                            color: #f50057;
+                            font-size: 16px;
+                            padding: 5px;
+                        }
+                        a{
+                            color:#000;
+                            text-decoration:none;
+                            font-size: 14px;
+                            
+
+                        }
+                        // &:before{
+                        //     color: red;
+                        //     content:"";
+                        //     width:10px;
+                        //     height:10px;
+
+                        // }
+                    }
+                }
+            }
+        }
+        
+    }
+ }
+
+ footer.footer-area{
+     display: block;
+     float: left;
+     width: 100%;
+     text-align: center;
+     background-color:#f50057 ;
+     color: #fff;
+     padding: 20px 10px;
+     .footer-top{
+         p{
+            font-size: 15px;
+            border-bottom: 1px solid #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+
+         }
+     }
+ }
