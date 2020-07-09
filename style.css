@@ -179,7 +179,7 @@ table {
   text-align: center;
   display: block;
   widows: 100%;
-  background-color: #00b0ff;
+  background-color: #d500f9;
   padding: 10px;
   font-size: 19px;
   color: #fff;
@@ -211,6 +211,23 @@ table {
   color: #000;
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer-top {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: #f57f17;
+  color: #000;
+}
+.footer-top p {
+  font-size: 15px;
+  padding: 10px;
+}
+.footer-top p a {
+  color: #000;
+  font-size: 16px;
 }
 
 footer.footer-area {
