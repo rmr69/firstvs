@@ -74,7 +74,7 @@ table {
   display: flex;
   background-color: #00b0ff;
   height: auto;
-  padding: 10px;
+  padding: 5px;
 }
 #HeaderArea .headertop-area .header-logo {
   display: block;
@@ -107,9 +107,10 @@ table {
 }
 #HeaderArea .headertop-area .top-menu {
   display: block;
-  width: 71%;
-  padding-top: 62px;
+  width: 88%;
   float: left;
+  text-align: right;
+  padding-top: 6px;
 }
 #HeaderArea .headertop-area .top-menu ul {
   display: block;
@@ -133,8 +134,7 @@ table {
 #HeaderArea .headertop-area .social {
   display: block;
   float: left;
-  width: 29%;
-  padding-top: 54px;
+  width: 12%;
 }
 #HeaderArea .headertop-area .social ul {
   display: block;
@@ -164,6 +164,11 @@ table {
   border-radius: 50%;
   background-color: #000;
   font-size: 12px;
+}
+#HeaderArea .headertop-area .social-top {
+  display: block;
+  float: left;
+  width: 100%;
 }
 #HeaderArea .header-menu {
   background-color: #ff4081;

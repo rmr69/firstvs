@@ -76,7 +76,7 @@ table {
             // background-color:#f48fb1;
             background-color:#00b0ff;
             height: auto;
-            padding: 10px;
+            padding: 5px;
 
     .header-logo{
         display: block;
@@ -112,9 +112,10 @@ table {
     }
     .top-menu{
         display: block;
-        width: 71%;
-        padding-top: 62px;
+        width: 88%;
         float: left;
+        text-align: right;
+       padding-top: 6px;
         ul{
             display: block;
             float: right;
@@ -142,8 +143,8 @@ table {
     .social{
         display: block;
         float: left;
-        width: 29%;
-        padding-top: 54px;
+        width: 12%;
+        // padding-top: 54px;
         ul{
             display: block;
             float: left;
@@ -176,6 +177,13 @@ table {
                 }
             }
         }
+    }
+
+    .social-top{
+        display: block;
+        float: left;
+        width: 100%;
+        // background-color: #ffc400;
     }
 }
 
